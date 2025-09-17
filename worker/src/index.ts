@@ -24,7 +24,7 @@ async function startWorker() {
     
     try {
         await client.connect();
-        await sub.connect();
+        await sub.connect();    
         console.log("Worker connected to Redis.");
 
         // Main loop
